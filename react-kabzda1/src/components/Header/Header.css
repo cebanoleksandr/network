@@ -1,0 +1,21 @@
+.header {
+    grid-area: h;
+    background-color: rgb(69, 9, 87);
+    border-radius: 10px;
+}
+  
+.header__div {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+  
+.header__logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.login-block {
+  color: white;
+}

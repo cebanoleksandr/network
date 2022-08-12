@@ -1,0 +1,52 @@
+.users__photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.users__container {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+
+.users__discription {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.users__ava {
+    text-align: center;
+}
+
+.usersFriend__button {
+    margin-top: 5px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    background-color: rgb(138, 113, 1);
+    border: 1px solid rgb(69, 9, 87);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+span {
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(69, 9, 87);
+}
+
+span:hover {
+    background-color: rgb(138, 113, 1);
+    transition-duration: 0.5s;
+}
+
+.paginator__wraper {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    display: flex;
+    margin: 20px;
+    justify-content: right;
+}

@@ -1,0 +1,31 @@
+.nav {
+  padding-top: 20px;
+  grid-area: n;
+  background-color: rgb(69, 9, 87);
+  border-radius: 10px;
+}
+  
+.nav__link {
+  padding: 0 20px;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__link--active {
+  color: yellow;
+}
+
+.nav__settings {
+  margin-top: 20px;
+}
+
+.nav__link:hover {
+  color: yellow;
+  transition-duration: 0.5s;
+}
+
+.nav__div:hover {
+  background-color: rgb(13, 0, 31);
+  transition-duration: 0.5s;
+}

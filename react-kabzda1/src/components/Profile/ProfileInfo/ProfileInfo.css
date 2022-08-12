@@ -1,0 +1,10 @@
+.profile__picture {
+    height: 250px;
+    background-position: center;
+    background-image: url("https://www.thebaldbackpacker.ie/wp-content/uploads/2021/09/beach.jpeg");
+    border-radius: 10px;
+}
+
+.profile__description {
+    padding: 10px;
+}
